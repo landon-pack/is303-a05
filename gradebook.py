@@ -117,10 +117,13 @@ def main():
 
     landon.add_grade(Grade("A05 gradebook build", 90))
     landon.add_grade(Grade("A05 task manager build", 100))
+    landon.add_grade(Grade("Midterm", 97))
+    landon.add_grade(Grade("Test file", 75))
     landon.display_all_grades()
     print(f"Average: {landon.calculate_average()}")
     print(f"Highest: {landon.find_highest_grade()}")
     print(f"Lowest: {landon.find_lowest_grade()}")
+    print(f"Highest grade letter: {landon.find_highest_grade().letter_grade}")
     print(landon)
 
 
