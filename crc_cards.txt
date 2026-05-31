@@ -1,0 +1,37 @@
+CLASS: Task
+RESPONSIBILITIES                    | COLLABORATORS
+------------------------------------|-------------
+Knows its name, Knows its priority,
+Knows if it is complete.
+    
+ 
+
+CLASS: TaskManager
+RESPONSIBILITIES                               | COLLABORATORS
+-----------------------------------------------|-------------
+Knows all existing tasks (maintains the list)  | Task
+Can add a task                                 |Task
+Can remove a task                              |Task
+Can retrieve tasks                             |Task
+
+
+
+
+CLASS: Grade
+RESPONSIBILITIES                    | COLLABORATORS
+------------------------------------|-------------
+Knows its name                      |
+Knows its numeric value             |
+Knows its letter grade              |
+
+CLASS: GradeBook
+RESPONSIBILITIES                         | COLLABORATORS
+-----------------------------------------|-------------
+Knows all existing grades (the list)     | Grade
+Can add a grade                          | Grade
+Can display all grades                   | Grade
+Can calculate the average of all grades  | Grade
+Can find the lowest grade                | Grade
+Can find the highest grade               | Grade
+
+    
